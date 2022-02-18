@@ -1,0 +1,70 @@
+:root {
+  --1stColor: #303841;
+  --2ndColor: #00adb5;
+  --3rdColor: #eeeeee;
+  --4thColor: #ff5722;
+}
+
+h1 {
+  color: var(--2ndColor);
+  text-shadow: 0.6vmin 0.6vmin 0px var(--1stColor), 1.4vmin 1.4vmin 0px var(--4thColor);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+
+  font-size: 25vmin;
+  letter-spacing: 1vmin;
+  margin: 0;
+  mix-blend-mode: lighten;
+}
+
+.start-screen {
+  background-color: var(--1stColor);
+  background-image: linear-gradient(141deg, var(--2ndColor) 0%, var(--1stColor) 60%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  animation-name: rotateHue;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateHue {
+  from {filter: hue-rotate(0deg);}
+  to {filter: hue-rotate(360deg);}
+}
+
+.start-screen p {
+  font-family: 'Raleway', sans-serif;
+  color: var(--2ndColor);
+  font-size: 4vmin;
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  margin: 0;
+  word-spacing: 2vmin;
+  letter-spacing: 0.25vmin;
+
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  0%   {filter: opacity(100%);}
+  50%  {filter: opacity(5%);}
+  100% {filter: opacity(100%);}
+}
+
+h2 {
+  font-family: 'Merriweather', serif !important;
+  font-size: 3vmin;
+  color: var(--4thColor);
+  letter-spacing: 0.25vmin;
+  mix-blend-mode: lighten;
+}

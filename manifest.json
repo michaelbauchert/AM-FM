@@ -1,0 +1,9 @@
+{
+  "name": "FM",
+  "short_name": "FM",
+  "theme_color": "#303841",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
