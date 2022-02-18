@@ -1,17 +1,8 @@
-# WebGL Fluid Simulation
-
-[Play here](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
-
+# AM-FM
 <img src="/screenshot.png?raw=true" width="800">
 
-## References
+This is a multi-touch FM synth I made in 2019. The fluid sim was forked from [PavelDoGreat's WebGL Fluid Simulation](https://paveldogreat.github.io/WebGL-Fluid-Simulation/).
 
-http://developer.download.nvidia.com/books/HTML/gpugems/gpugems_ch38.html
+You can play with it yourself at this [Netlify site](https://5dd714ce9982689a05bd96dd--vigilant-lumiere-040d89.netlify.app/)
 
-https://github.com/mharrys/fluids-2d
 
-https://github.com/haxiomic/GPU-Fluid-Experiments
-
-## License
-
-The code is available under the [MIT license](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/blob/master/LICENSE)
